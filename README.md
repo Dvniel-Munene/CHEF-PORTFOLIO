@@ -1,5 +1,10 @@
 # CHEF-PORTFOLIO
-Welcome to the Chef Portfolio Website project! This website is designed to showcase the culinary expertise, personal brand, and professional achievements of a chef. The site features a modern and responsive design to highlight the chef's work, including signature dishes, culinary experiences, and client testimonials.
+[https://gaellaskitchen.netlify.app/]
+Welcome to the Chef Portfolio Website project! This website is designed to showcase the culinary expertise, personal brand, and professional achievements of a chef. The site features a modern and responsive design to highlight the chef's work, including signature dishes, culinary experiences, among others 
+
+![project5](https://github.com/user-attachments/assets/c965f8cf-8c59-41ac-bc6b-c5b89139a15b)
+
+
 
 Overview
 
