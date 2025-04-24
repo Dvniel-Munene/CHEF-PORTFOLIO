@@ -29,20 +29,28 @@
     <link href="css/aos.css" rel="stylesheet">
 
     <link href="css/templatemo-nomad-force.css" rel="stylesheet">
-    <!--
+  <style>
+    /* Default background for wider screens (desktops, laptops, tablets, TVs) */
+    #hero {
+        background-image: url('./assets/images/recipes/RBG/SHORTRIB.jpg');
+        background-size: cover;
+        background-position: center;
+    }
 
-TemplateMo 567 Nomad Force
-
-https://templatemo.com/tm-567-nomad-force
-
--->
+    /* Background for mobile devices */
+    @media (max-width: 767px) {
+        #hero {
+            background-image: url('./assets/images/recipes/recipe1.png');
+        }
+    }
+</style>
 </head>
 
 <body>
 
     <main>
 
-        <section class="hero" id="hero" style="background-image: url('./assets/images/recipes/recipe1.png');">
+        <section class="hero" id="hero">
             <div class="heroText">
                 <h1 class="news-detail-title text-white mt-lg-5 mb-lg-4" data-aos="zoom-in" data-aos-delay="300">
                     Short Rib Recipe
@@ -61,7 +69,7 @@ https://templatemo.com/tm-567-nomad-force
             </div>
 
             <div class="videoWrapper">
-                <img src="assets/images/recipes/recipe1.png" class="img-fluid news-detail-image" alt="">
+                <img src="assets/images/recipes/recipe6.png" class="img-fluid news-detail-image" alt="">
             </div>
 
             <div class="overlay"></div>
