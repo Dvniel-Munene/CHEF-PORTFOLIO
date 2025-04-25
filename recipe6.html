@@ -14,6 +14,8 @@
         <title>Abbie Gal | Gaella's Kitchen</title>
 
     <!-- CSS FILES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,6 +45,27 @@
             background-image: url('./assets/images/recipes/recipe6.png');
         }
     }
+.info-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px;
+    }
+    .info-item {
+      text-align: center;
+    }
+    .info-item i {
+      font-size: 24px;
+      color: #C85548;
+      margin-bottom: 5px;
+    }
+    .info-item p {
+      margin: 4px 0;
+    }
+
+.fa-solid{
+ color: #C85548 !important;
+}
 </style>
 </head>
 
@@ -117,14 +140,38 @@
                 <div class="row">
                     <div class="col-lg-8 col-10 mx-auto">
                         <h2 class="mb-3" data-aos="fade-up"> Gourmet Mixed Green Salad</h2>
-
-                        <p class="me-4" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                            ultrices gravida. Risus commodo viverra maecenas accumsan.</p>
-
+                       <div data-aos="fade-up" class="info-container">
+                        <div class="info-item">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>Prep Time:</p>
+                          <p>30m</p>
+                        </div>
+                        <div class="info-item">
+                          <i class="fa-regular fa-clock"></i>
+                          <p>Cook Time:</p>
+                          <p>45m</p>
+                        </div>
+                        <div class="info-item">
+                          <i class="fa-solid fa-users"></i>
+                          <p>Servings:</p>
+                          <p>4</p>
+                        </div>
+                        <div class="info-item">
+                          <i class="fa-solid fa-utensils"></i>
+                          <p>Difficulty:</p>
+                          <p>Medium</p>
+                        </div>
+                     </div>
                         <p data-aos="fade-up">Nullam id lorem commodo, pharetra sapien ut, accumsan ligula. Sed sit amet
                             sem pulvinar, imperdiet eros quis, vestibulum felis. Pellentesque posuere scelerisque
                             sodales.</p>
+                    <h3 data-aos="fade-up"><i class="fa-solid fa-utensils"></i> Equipment Needed</h3>
+                           <p data-aos="fade-up">
+                             
+                                  Large Bowl<br>
+                                  Large Pot <br>
+                                  Spoon <br>
+                        </p>
 
                         <div class="clearfix my-4 mt-lg-0 mt-5">
                             <div class="col-md-6 float-md-end mb-3 ms-md-3" data-aos="fade-up">
@@ -137,28 +184,51 @@
                                 </figure>
                             </div>
 
-                            <p data-aos="fade-up">
-                                Morbi scelerisque urna in orci elementum, nec mollis ligula luctus. Proin ullamcorper
-                                pulvinar commodo. Quisque tortor nunc, ultricies efficitur ex sit amet, tempus rutrum
-                                libero. In nec faucibus tellus.
-                            </p>
+                            <h3 data-aos="fade-up" ><i class="fa-solid fa-bars"></i> Ingredients</h3>
+                           <p  data-aos="fade-up">
+                                1 lb ground chicken <br>
+                                1/4 cup breadcrumbs<br>
+                                1 egg, beaten <br>
+                                1 tbsp grated ginger <br>
+                                1 tbsp soy sauce <br>
+                                1 tsp sesame oil <br>
+                                6 cups chicken broth <br>
+                                4 oz dried egg noodles <br>
+                                1 cup shredded cabbage <br>
+                                1/2 cup shredded carrots <br>
+                                2 green onions, thinly sliced <br>
+                                Salt and pepper to taste <br>
+                        </p>
+
+                            <h3 data-aos="fade-up" ><i class="fa-solid fa-book-open"></i> Instructions</h3>
+
 
                             <p data-aos="fade-up">
-                                Donec justo orci, pretium ultricies ante eget, bibendum semper enim. Nunc efficitur
-                                purus suscipit leo placerat, a ultricies purus gravida. Sed sollicitudin ornare porta.
-                                Mauris convallis sit amet purus sed rutrum.
+                               In a bowl, combine ground chicken, breadcrumbs, egg, garlic, ginger, soy sauce, and sesame oil. Mix well.
+                               <br>
+                               Form the mixture into small meatballs.
+                               <br>
+                               Bring chicken broth to a simmer in a large pot.
+                                <br>
+                              Gently drop meatballs into the simmering broth. Cook for about 15-20 minutes, or until cooked through.
+                                <br>
+                               Add egg noodles, cabbage, and carrots to the pot. Cook until noodles are tender, about 5-7 minutes.
+                               <br>
+                               Season with salt and pepper to taste.
+                                 <br>
+                               Garnish with green onions before serving. <br>
                             </p>
 
+                            <h3 data-aos="fade-up"  ><i class="fa-solid fa-lightbulb"></i> Notes </h3>
+
                             <p data-aos="fade-up">
-                                Donec justo orci, pretium ultricies ante eget, bibendum semper enim. Nunc efficitur
-                                purus suscipit leo placerat, a ultricies purus gravida. Morbi scelerisque urna in orci elementum, nec mollis ligula luctus. Proin ullamcorper
-                                pulvinar commodo. Quisque tortor nunc, ultricies efficitur ex sit amet, tempus rutrum
-                                libero. In nec faucibus tellus.
+                                You can use other types of noodles like rice noodles.
+                                Add more vegetables according to your preference.
+                                For a spicier kick, add a pinch of red pepper flakes.
                             </p>
                         </div>
-
                         <div class="social-share d-flex mt-5">
-                            <span class="me-4" data-aos="zoom-in">Share this article:</span>
+                            <span class="me-4" data-aos="zoom-in">Share This Recipe:</span>
 
                             <a href="#" class="social-share-icon bi-facebook" data-aos="zoom-in"></a>
 
